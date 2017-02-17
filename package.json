@@ -1,0 +1,26 @@
+{
+  "name": "aws-serverless-rekognition-twilio",
+  "version": "0.0.1",
+  "description": "Sample AWS serverless application which processes Twilio SMS/MMS messages with AWS Rekognition",
+  "main": "lambda-function.js",
+  "dependencies": {
+    "aws-sdk": "^2.15.0",
+    "request": "^2.79.0",
+    "twilio": "^2.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node lambda-function.js"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "twilio",
+    "rekognition",
+    "api-gateway",
+    "s3",
+    "dynamodb"
+  ],
+  "author": "Joe Fontes <fontesj>",
+  "license": "ISC"
+}
